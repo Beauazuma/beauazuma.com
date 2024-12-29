@@ -1,5 +1,5 @@
 body, html{
-    background-color: black;
+ 
     margin: 0;
             padding: 0;
             height: 100%;
@@ -11,30 +11,36 @@ body, html{
 h1{
     color: white;
     margin-left: 20px;
-
     text-align: center;
-   
-
+    
     font-size: 4vw; /* Adjusts size based on viewport width */
 
 }
 
 p{
-    color: white;
+   
     margin-left: 20px;
 }
 
 /* Basic hyperlink styling */
 a {
-    color: white;         /* Set initial color */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+    font-style: normal; 
+    color: black;        /* Set initial color */
     text-decoration: none;  /* Remove underline */
-    font-weight: bold;
-    font-size: 1.2rem;      /* Customize size */
-    transition: color 0.3s; /* Smooth color transition */
+  
+    font-size: 2.2rem;      /* Customize size */
+    transition: color 0.3s, font-size 0.3s;
+ 
+  
 }
 
 /* Hover effect */
 a:hover {
-    color: #e74c3c;         /* Change color on hover */
-    text-decoration: underline; /* Add underline on hover */
+    font-size: 2.5rem;  
+    color: red;       /* Change color on hover */
 }
+
+
+ 
